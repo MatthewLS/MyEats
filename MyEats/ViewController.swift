@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    //MARK: Properties
+    @IBOutlet weak var nameLabel: UILabel!
+   // @IBOutlet weak var shopPrice: PriceControll!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
