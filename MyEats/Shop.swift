@@ -13,17 +13,17 @@ import MapKit
 class Shop {
     //MARK Properties
     var name: String
-    var location: String
+//    var location: String
     var price: Int?
     
     
     //MARK: Init
-    init?(name: String, location: String, price: Int?){
+    init?(name: String, price: Int?){
         guard !name.isEmpty else {
             return nil
         }
         self.name = name
-        self.location = location
+//        self.location = location
         self.price = price
     }
     

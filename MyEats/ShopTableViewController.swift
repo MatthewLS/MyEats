@@ -102,9 +102,9 @@ class ShopTableViewController: UITableViewController {
     
     //MARK: Private methods
     private func loadSampleData(){
-        let shop1 = Shop(name: "Shop1", location: "Haight", price: 1)
-        let shop2 = Shop(name: "Shop2", location: "Alamo", price: 2)
-        let shop3 = Shop(name: "Shop3", location: "Fidi", price: 3)
+        let shop1 = Shop(name: "Shop1",  price: 1)
+        let shop2 = Shop(name: "Shop2",  price: 2)
+        let shop3 = Shop(name: "Shop3",  price: 3)
         
         shops.append(shop1!)
         shops.append(shop2!)
